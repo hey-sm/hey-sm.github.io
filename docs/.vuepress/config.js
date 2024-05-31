@@ -16,5 +16,31 @@ export default defineUserConfig({
 		//     message: "",
 		//   },
 	}),
+	markdown: {
+		// Disable Liquid
+		render: {
+			html: true,
+			// 禁用 Liquid 处理
+			options: {
+				breaks: true,
+				xhtmlOut: false,
+				langPrefix: 'language-',
+				linkify: true,
+				typographer: true,
+				quotes: '“”‘’',
+				highlight: (str, lang) => {
+					if (lang && hljs.getLanguage(lang)) {
+						try {
+							return hljs.highlight(lang, str).value;
+						} catch (__) {}
+					}
+
+					return ''; // 使用额外的 default 高亮模式
+				},
+			},
+			// 关闭 Liquid 语法
+			disableLiquid: true,
+		},
+	},
 	bundler: viteBundler(),
 });
