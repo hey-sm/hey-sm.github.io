@@ -1,1 +1,0 @@
-# hey-sm.github.io
