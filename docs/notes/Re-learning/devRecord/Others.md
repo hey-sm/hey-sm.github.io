@@ -63,3 +63,9 @@ https://github.com/501351981/vue-office?mode=light
 - **perf**: 性能优化
 - **test**: 测试相关的修改
 - **chore**: 构建过程或辅助工具的修改
+
+##### github 443
+
+git config --global --unset http.proxy
+
+git config --global --unset https.proxy

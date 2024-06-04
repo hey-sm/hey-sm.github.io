@@ -4,6 +4,54 @@ author:
 createTime: 2024/05/20 11:40:13
 permalink: /article/f990g81o/
 ---
+## 文件命名规范
+
+### 文件命名规范
+
+1. **文件名小写，用连字符分隔**
+   - 例如：`user-profile.js`，`main-header.css`，`app-component.jsx`
+2. **组件文件**
+   - 使用大驼峰命名法（PascalCase），通常每个组件一个文件
+   - 例如：`UserProfile.js`，`MainHeader.jsx`
+3. **样式文件**
+   - 通常使用连字符分隔的小写字母
+   - 例如：`user-profile.css`，`main-header.scss`
+4. **测试文件**
+   - 通常与被测试文件同名，并加上 `.test` 或 `.spec`
+   - 例如：`user-profile.test.js`，`main-header.spec.jsx`
+
+### 函数命名规范
+
+1. **小驼峰命名法（camelCase）**
+   - 函数名应当描述其功能或用途
+   - 例如：`fetchUserData`，`handleButtonClick`
+2. **事件处理函数**
+   - 通常以 `handle` 或 `on` 开头
+   - 例如：`handleClick`，`onSubmit`
+3. **通用函数**
+   - 动词开头，描述具体操作
+   - 例如：`calculateTotal`，`renderComponent`
+
+### 变量命名规范
+
+1. **小驼峰命名法（camelCase）**
+   - 变量名应当描述其内容或用途
+   - 例如：`userName`，`totalPrice`
+2. **常量**
+   - 使用全大写字母和下划线分隔
+   - 例如：`MAX_LIMIT`，`API_KEY`
+3. **布尔变量**
+   - 以 `is`，`has`，`can` 开头，确保语义清晰
+   - 例如：`isActive`，`hasPermission`，`canEdit`
+
+
+
+
+
+
+
+
+
 ## 输入框限制
 
 el-input 只能输入正整数（包括0）
