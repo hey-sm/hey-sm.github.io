@@ -1,3 +1,9 @@
+---
+title: List 01
+author:
+createTime: 2024/06/04 13:39:05
+permalink: /notes/books/IELTS/64dhc09a/
+---
 ## 1. emperor   皇帝；君主
 
 > 1. The emperor strode through the grand hall, his presence commanding the attention of all who beheld him.
