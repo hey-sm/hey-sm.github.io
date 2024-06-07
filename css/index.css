@@ -1,0 +1,35 @@
+/* 高亮 */
+mark {
+	background-color: #c0a8e1;
+	color: rgb(255, 255, 255);
+	border-radius: 2px;
+	padding: 0 2px;
+}
+
+/* 引用 */
+blockquote {
+	background-color: #82a2dd5c;
+	border-radius: 10px;
+	padding: 5px 15px;
+	color: #777777;
+}
+h1 {
+	color: #d46b08 !important;
+}
+h2 {
+	color: #fa8c16 !important;
+}
+h3 {
+	color: #ffa940 !important;
+}
+h4 {
+	color: #ffc069 !important;
+}
+h5 {
+	color: #ffd591 !important;
+}
+h6 {
+	color: #ffe7ba !important;
+}
+:root {
+}
