@@ -54,6 +54,36 @@ permalink: /article/f990g81o/
 
 ## 输入框限制
 
+```js
+//输入值校验  只能输入两位小数 
+ <el-input
+        v-model="input"
+        style="width: 240px"
+        placeholder="Please input"
+        clearable
+        @input="handleInput"
+        @change="handleChange"
+    />
+
+const processInput = (value) => {
+    const regex = /^-?\d*\.?\d{0,2}$/
+    let newValue = ''
+    for (let char of value) {
+        if (regex.test(newValue + char)) {
+            newValue += char
+        }
+    }
+    return newValue
+}
+
+const handleInput = (value) => {
+    input.value = processInput(value)
+}
+const handleChange = (value) => {
+    input.value = Number(value)
+}
+```
+
 el-input 只能输入正整数（包括0）
 
 ```js

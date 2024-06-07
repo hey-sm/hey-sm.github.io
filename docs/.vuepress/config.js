@@ -8,6 +8,7 @@ export default defineUserConfig({
 	lang: 'zh-CN',
 	head: [
 		['link', { rel: 'icon', href: 'https://plume.pengzhanbo.cn/plume.png' }],
+		['link', { rel: 'stylesheet', href: '/css/index.css' }],
 	],
 	theme: plumeTheme({
 		navbar: navbar,
