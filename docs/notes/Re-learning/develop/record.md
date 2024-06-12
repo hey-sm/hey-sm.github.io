@@ -1,8 +1,8 @@
 ---
-title: dev   record
+title: record
 author:
-createTime: 2024/05/20 11:40:13
-permalink: /article/f990g81o/
+createTime: 2024/05/31 18:45:38
+permalink: /notes/Re-learning/develop/732df1jz/
 ---
 ## 文件命名规范
 
@@ -44,18 +44,10 @@ permalink: /article/f990g81o/
    - 以 `is`，`has`，`can` 开头，确保语义清晰
    - 例如：`isActive`，`hasPermission`，`canEdit`
 
-
-
-
-
-
-
-
-
 ## 输入框限制
 
 ```js
-//输入值校验  只能输入两位小数 
+//输入值校验  只能输入两位小数
  <el-input
         v-model="input"
         style="width: 240px"
@@ -84,7 +76,7 @@ const handleChange = (value) => {
 }
 ```
 
-el-input 只能输入正整数（包括0）
+el-input 只能输入正整数（包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -97,7 +89,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入正整数（不包括0）
+el-input 只能输入正整数（不包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -109,7 +101,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入负整数（包括0）
+el-input 只能输入负整数（包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -126,7 +118,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入负整数（不包括0）
+el-input 只能输入负整数（不包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -157,7 +149,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入正小数（包括0）
+el-input 只能输入正小数（包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -174,7 +166,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入负小数（包括0）
+el-input 只能输入负小数（包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -195,7 +187,7 @@ handleEdit(e) {
 
 ```
 
-el-input 只能输入负小数（不包括0）
+el-input 只能输入负小数（不包括 0）
 
 ```js
 // 在 Input 值改变时触发
@@ -214,7 +206,7 @@ handleEdit(e) {
 }
 ```
 
-el-input 输入整数（包括正数、负数、0）和小数，保留15位整数和2位小数
+el-input 输入整数（包括正数、负数、0）和小数，保留 15 位整数和 2 位小数
 
 ```js
 handleEdit(e) {
@@ -233,14 +225,11 @@ handleEdit(e) {
 }
 ```
 
-
-
-## 输入搜索  字母匹配汉字
+## 输入搜索 字母匹配汉字
 
 > npm install pinyin-match --save
 >
 > import PinyinMatch from 'pinyin-match';
->
 
 ```js
 <template>
@@ -277,7 +266,7 @@ export default {
         this.selectUser()
       }, 100)
     },
- 
+
     // 防抖
     debounce(fn, wait) {
       if(timer) clearTimeout(timer)
@@ -286,7 +275,7 @@ export default {
         timer = null
       }, wait)
     },
-    
+
     // 模糊查询条件
     selectUser() {
       this.users = []
@@ -318,4 +307,3 @@ export default {
 }
 </style>
 ```
-
