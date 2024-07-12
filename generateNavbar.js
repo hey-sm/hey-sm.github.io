@@ -42,10 +42,10 @@ const navbarList = [
 		icon: 'material-symbols:home-outline',
 	},
 	{
-		text: 'Re-learning',
-		activeMatch: '^/notes/Re-learning/',
+		text: 'Web-dev',
+		activeMatch: '^/notes/Web-dev/',
 		icon: 'material-symbols:article-outline',
-		items: generateNavbar('./docs/notes/Re-learning', 'Re-learning'),
+		items: generateNavbar('./docs/notes/Web-dev', 'Web-dev'),
 	},
 	{
 		text: 'books',
