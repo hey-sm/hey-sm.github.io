@@ -4,6 +4,7 @@ author:
 createTime: 2024/05/31 18:45:38
 permalink: /notes/Web-dev/develop/ea78n5is/
 ---
+
 ## 开源库
 
 JavaScript 的框架语法对比
@@ -25,8 +26,12 @@ https://github.com/501351981/vue-office?mode=light
 
 ##### github 443
 
-git config --global --unset http.proxy
+###### 使用 clash 配置时代理端口号
 
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+
+git config --global --unset http.proxy
 git config --global --unset https.proxy
 
 ## VsCode 快捷键
