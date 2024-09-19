@@ -1,8 +1,8 @@
 import { defineUserConfig } from 'vuepress';
 import { viteBundler } from '@vuepress/bundler-vite';
 import { plumeTheme } from 'vuepress-theme-plume';
-import { navbar } from '../../generateNavbar.js';
-import { notes } from '../../generateSidebar.js';
+import { navbar } from '../../generateNavbar.mjs';
+import { notes } from '../../generateSidebar.mjs';
 
 export default defineUserConfig({
 	lang: 'zh-CN',

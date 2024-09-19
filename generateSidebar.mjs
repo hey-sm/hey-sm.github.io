@@ -43,4 +43,4 @@ const notes = {
 };
 
 export { notes };
-// console.log(JSON.stringify(notes, null, 2));
+console.log(JSON.stringify(notes, null, 2));
