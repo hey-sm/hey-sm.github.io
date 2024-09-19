@@ -1,4 +1,9 @@
-﻿React 组件支持 class、function 两种形式，但现在绝大多数情况下我们都是写 function 组件了。
+---
+title: 第02章—一网打尽组件常用Hook
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/vu9xiy2a/
+---
+React 组件支持 class、function 两种形式，但现在绝大多数情况下我们都是写 function 组件了。
 
 [官方文档](https://react.dev/reference/react/Component)也已经把 class 组件的语法划到了 legacy（遗产）的目录下：
 

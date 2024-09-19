@@ -1,4 +1,9 @@
-﻿基本的布局完成了，我们来添加一些参数：
+---
+title: 第09章—组件实战：Calendar日历组件（下）
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/czlw6d31/
+---
+基本的布局完成了，我们来添加一些参数：
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ad04e19e36074b8193b32176742a63ed~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=986&h=708&s=175040&e=png&b=1f1f1f)
 

@@ -1,4 +1,9 @@
-﻿Icon 图标组件是非常常用的组件。
+---
+title: 第13章—组件实战：Icon图标组件
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/d3vvjkll/
+---
+Icon 图标组件是非常常用的组件。
 
 它用起来非常简单，只要复制图标的组件名，直接渲染即可：
 

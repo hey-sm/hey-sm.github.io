@@ -1,4 +1,9 @@
-﻿大家都是怎么调试 React 组件的呢？
+---
+title: 第05章—React组件如何调试
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/js8p3orv/
+---
+大家都是怎么调试 React 组件的呢？
 
 很多同学都会说，console.log 啊。
 

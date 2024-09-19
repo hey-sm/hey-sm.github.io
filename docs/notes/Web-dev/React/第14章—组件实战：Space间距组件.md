@@ -1,4 +1,9 @@
-﻿我们用 flex、margin、padding 等来布局，写每个组件都要用。
+---
+title: 第14章—组件实战：Space间距组件
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/s0lglugi/
+---
+我们用 flex、margin、padding 等来布局，写每个组件都要用。
 
 但其实很多布局是通用的。
 

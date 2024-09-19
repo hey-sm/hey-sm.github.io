@@ -1,4 +1,9 @@
-﻿上节实现了 hover 时展示高亮框和组件名的效果：
+---
+title: 第70章—低代码编辑器：画布区click展示编辑框
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/ex5s23b2/
+---
+上节实现了 hover 时展示高亮框和组件名的效果：
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2f45f79575654edbb78c78c63bb9ff1a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2336&h=1230&s=228307&e=gif&f=33&b=f0effe)
 

@@ -1,4 +1,9 @@
-﻿上节写了几个 react-use 的 hook，这节来写几个 ahooks 里的。
+---
+title: 第22章—自定义hook练习（二）
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/w4t7dn00/
+---
+上节写了几个 react-use 的 hook，这节来写几个 ahooks 里的。
 
 新建个项目：
 

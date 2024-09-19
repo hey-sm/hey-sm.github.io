@@ -1,4 +1,9 @@
-﻿上节我们学了 Context 的用法、实现原理，还有它在 antd 里的应用。
+---
+title: 第46章—ReactContext的性能缺点和解决方案
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/h8chu9zi/
+---
+上节我们学了 Context 的用法、实现原理，还有它在 antd 里的应用。
 
 在跨层传递数据方面，确实很好用，在组件库里有很多应用。
 

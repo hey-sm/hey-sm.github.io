@@ -1,4 +1,9 @@
-﻿假设 React 组件有这样一个状态：
+---
+title: 第42章—数据不可变：immutable和immer
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/lyrn2jm9/
+---
+假设 React 组件有这样一个状态：
 
 ```javascript
 this.state = {

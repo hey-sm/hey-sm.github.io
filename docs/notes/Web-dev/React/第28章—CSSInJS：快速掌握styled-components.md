@@ -1,4 +1,9 @@
-﻿CSS in JS，顾名思义就是用 js 来写 css。
+---
+title: 第28章—CSSInJS：快速掌握styled-components
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/a1nzuk0v/
+---
+CSS in JS，顾名思义就是用 js 来写 css。
 
 它也是一种很流行的 css 管理方案。
 

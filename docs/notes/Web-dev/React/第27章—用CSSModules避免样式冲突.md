@@ -1,4 +1,9 @@
-﻿每个组件里有 js 逻辑和 css 样式。
+---
+title: 第27章—用CSSModules避免样式冲突
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/9k79e04f/
+---
+每个组件里有 js 逻辑和 css 样式。
 
 js 逻辑是通过 es module 做了模块化的，但是 css 并没有。
 

@@ -1,4 +1,9 @@
-﻿大家都用过组件库，react 流行的组件库有阿里的 ant-design、字节的 semi-design、arco-design 等。
+---
+title: 第39章—React组件库都是怎么构建的
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/yhqmpfqp/
+---
+大家都用过组件库，react 流行的组件库有阿里的 ant-design、字节的 semi-design、arco-design 等。
 
 那这些组件库都是怎么打包的呢？
 

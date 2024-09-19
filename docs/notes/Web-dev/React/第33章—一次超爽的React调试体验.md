@@ -1,4 +1,9 @@
-﻿我们学了如何在 VSCode 里断点调试 React 组件，也学了用 click-to-react-component 点击页面元素直接在 VSCode 打开对应组件。
+---
+title: 第33章—一次超爽的React调试体验
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/4d6w2ujp/
+---
+我们学了如何在 VSCode 里断点调试 React 组件，也学了用 click-to-react-component 点击页面元素直接在 VSCode 打开对应组件。
 
 这俩单独使用都很不错，而如果把两者结合起来用，会有更爽的调试体验。
 

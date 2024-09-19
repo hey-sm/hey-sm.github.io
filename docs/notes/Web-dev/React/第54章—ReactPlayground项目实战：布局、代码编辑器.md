@@ -1,4 +1,9 @@
-﻿上节分析了下思路，这节开始开发。
+---
+title: 第54章—ReactPlayground项目实战：布局、代码编辑器
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/9gw0ivai/
+---
+上节分析了下思路，这节开始开发。
 
 我们先写编辑器部分。
 

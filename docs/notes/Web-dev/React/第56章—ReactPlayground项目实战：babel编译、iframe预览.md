@@ -1,4 +1,9 @@
-﻿我们实现了多文件的切换、文件内容编辑：
+---
+title: 第56章—ReactPlayground项目实战：babel编译、iframe预览
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/a3pvp0oj/
+---
+我们实现了多文件的切换、文件内容编辑：
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/daaedfa65b0545078cf167d91a5cdf20~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2432&h=1106&s=762440&e=gif&f=58&b=fefefe)
 

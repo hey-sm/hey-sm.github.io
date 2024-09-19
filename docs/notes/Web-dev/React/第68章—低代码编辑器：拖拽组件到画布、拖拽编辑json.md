@@ -1,4 +1,9 @@
-﻿上节我们理清了低代码编辑器的实现原理，实现了核心数据结构 components 和 add、update、delete 方法。
+---
+title: 第68章—低代码编辑器：拖拽组件到画布、拖拽编辑json
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/yfih761f/
+---
+上节我们理清了低代码编辑器的实现原理，实现了核心数据结构 components 和 add、update、delete 方法。
 
 并且把拖拽操作对应到了这些增删改方法上。
 

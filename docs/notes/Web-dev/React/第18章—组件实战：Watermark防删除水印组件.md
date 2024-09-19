@@ -1,4 +1,9 @@
-﻿很多网页会加上水印，用于版权标识、防止盗用等。
+---
+title: 第18章—组件实战：Watermark防删除水印组件
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/w11l9ebb/
+---
+很多网页会加上水印，用于版权标识、防止盗用等。
 
 比如这样：
 

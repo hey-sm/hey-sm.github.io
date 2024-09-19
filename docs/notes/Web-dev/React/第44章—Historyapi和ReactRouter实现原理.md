@@ -1,4 +1,9 @@
-﻿Router 是开发 React 应用的必备功能，那 React Router 是怎么实现的呢？
+---
+title: 第44章—Historyapi和ReactRouter实现原理
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/7g84238r/
+---
+Router 是开发 React 应用的必备功能，那 React Router 是怎么实现的呢？
 
 今天我们就来读一下 React Router 的源码吧！
 

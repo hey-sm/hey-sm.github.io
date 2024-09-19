@@ -1,4 +1,9 @@
-﻿选择颜色是常见需求，想必大家都用过 ColorPicker 组件。
+---
+title: 第34章—组件实战：ColorPicker颜色选择器（一）
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/n60cyfz9/
+---
+选择颜色是常见需求，想必大家都用过 ColorPicker 组件。
 
 比如 Chrome DevTools 的这个：
 

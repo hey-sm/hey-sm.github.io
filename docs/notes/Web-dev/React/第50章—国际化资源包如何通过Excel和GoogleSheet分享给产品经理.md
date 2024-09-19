@@ -1,4 +1,9 @@
-﻿上节我们学了用 react-intl 做国际化。
+---
+title: 第50章—国际化资源包如何通过Excel和GoogleSheet分享给产品经理
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/ybuapgy3/
+---
+上节我们学了用 react-intl 做国际化。
 
 我们会把文案抽离出来，放在不同的资源包里维护。
 

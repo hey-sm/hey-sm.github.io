@@ -1,4 +1,9 @@
-﻿上节我们写了 mini react。
+---
+title: 第64章—手写MiniReact：和真实React源码的对比
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/sqqh0b0h/
+---
+上节我们写了 mini react。
 
 它和真实的 react 渲染流程是否一样呢？
 

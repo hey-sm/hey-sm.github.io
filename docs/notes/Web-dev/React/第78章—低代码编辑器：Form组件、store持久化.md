@@ -1,4 +1,9 @@
-﻿上节实现了 Table 的物料组件，这节继续来实现 Form 组件。
+---
+title: 第78章—低代码编辑器：Form组件、store持久化
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/56bsvaca/
+---
+上节实现了 Table 的物料组件，这节继续来实现 Form 组件。
 
 创建 materails/Form/dev.tsx
 

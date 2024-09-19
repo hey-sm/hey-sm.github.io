@@ -1,4 +1,9 @@
-﻿上节我们实现了 mini calendar，为啥要加个 mini 呢？
+---
+title: 第08章—组件实战：Calendar日历组件（上）
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/gri85r91/
+---
+上节我们实现了 mini calendar，为啥要加个 mini 呢？
 
 因为它与真实用的 Calendar 组件相比，还是过于简单了。
 

@@ -1,4 +1,9 @@
-﻿上传文件是常见的需求，我们经常用 antd 的 Upload 组件来实现。
+---
+title: 第37章—组件实战：Upload拖拽上传
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/5liao4ph/
+---
+上传文件是常见的需求，我们经常用 antd 的 Upload 组件来实现。
 
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/746b6ac1557d4267b7cfa3a7261fbc3b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1144&h=928&s=2441256&e=gif&f=41&b=fdfdfd)
 

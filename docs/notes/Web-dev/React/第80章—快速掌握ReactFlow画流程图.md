@@ -1,4 +1,9 @@
-﻿这节我们来学下用 React Flow 来画流程图。
+---
+title: 第80章—快速掌握ReactFlow画流程图
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/lf86mnnf/
+---
+这节我们来学下用 React Flow 来画流程图。
 
 有同学会问，这有什么应用么？
 

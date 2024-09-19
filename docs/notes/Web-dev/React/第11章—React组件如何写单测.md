@@ -1,4 +1,9 @@
-﻿当你写完一个 React 组件，如何保证它的功能是正常的呢？
+---
+title: 第11章—React组件如何写单测
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/5h9zrfpa/
+---
+当你写完一个 React 组件，如何保证它的功能是正常的呢？
 
 在浏览器里渲染出来，手动测试一遍就好了啊。
 

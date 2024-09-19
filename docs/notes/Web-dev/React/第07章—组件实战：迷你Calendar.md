@@ -1,4 +1,9 @@
-﻿日历组件想必大家都用过，在各个组件库里都有。
+---
+title: 第07章—组件实战：迷你Calendar
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/q8mdj68e/
+---
+日历组件想必大家都用过，在各个组件库里都有。
 
 比如 antd 的 Calendar 组件（或者 DatePicker 组件）：
 

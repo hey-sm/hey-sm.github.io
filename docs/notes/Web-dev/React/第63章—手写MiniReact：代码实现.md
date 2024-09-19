@@ -1,4 +1,9 @@
-﻿上节我们梳理了 React 渲染流程，这节来具体实现下。
+---
+title: 第63章—手写MiniReact：代码实现
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/mxzw0dsm/
+---
+上节我们梳理了 React 渲染流程，这节来具体实现下。
 
 首先先完成从 JSX 到 React Element 的转换：
 

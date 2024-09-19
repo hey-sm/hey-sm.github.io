@@ -1,4 +1,10 @@
-﻿这节我们继续完善 playground 的功能。
+---
+title: 第58章—ReactPlayground项目实战：错误显示、主题切换
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/dzsxy46k/
+---
+
+这节我们继续完善 playground 的功能。
 
 首先，我们预览出错时，iframe 会白屏，并不会显示错误。
 
@@ -43,76 +49,79 @@ export const Message: React.FC<MessageProps> = (props) => {
   ) : null
 }
 ```
+
 传入两个参数，type 是 error 还是 warn，还有错误内容 content。
 
 这里 cotent 要作为 html 的方式设置到 pre 标签的标签体。
 
-React 里设置 html 要用 dangerouslySetInnerHTML={{\_html: 'xxx'}} 的方式。
+React 里设置 html 要用 `dangerouslySetInnerHTML={{\_html: 'xxx'}`}` 的方式。
 
 用 visible 的 state 控制显示隐藏，当传入内容的时候，设置 visible 为 true。
 
 写下样式：
 
 index.module.scss
+
 ```scss
 .msg {
-    position: absolute;
-    right: 8px;
-    bottom: 0;
-    left: 8px;
-    z-index: 10;
+	position: absolute;
+	right: 8px;
+	bottom: 0;
+	left: 8px;
+	z-index: 10;
 
-    display: flex;
-    max-height: calc(100% - 300px);
-    min-height: 40px;
-    margin-bottom: 8px;
-    color: var(--color);
+	display: flex;
+	max-height: calc(100% - 300px);
+	min-height: 40px;
+	margin-bottom: 8px;
+	color: var(--color);
 
-    background-color: var(--bg-color);
-    border: 2px solid #fff;
-    border-radius: 6px;
+	background-color: var(--bg-color);
+	border: 2px solid #fff;
+	border-radius: 6px;
 
-    border-color: var(--color);
-  
-    &.error {
-      --color: #f56c6c;
-      --bg-color: #fef0f0;
-    }
-  
-    &.warn {
-      --color: #e6a23c;
-      --bg-color: #fdf6ec;
-    }
+	border-color: var(--color);
+
+	&.error {
+		--color: #f56c6c;
+		--bg-color: #fef0f0;
+	}
+
+	&.warn {
+		--color: #e6a23c;
+		--bg-color: #fdf6ec;
+	}
 }
-  
+
 pre {
-    padding: 12px 20px;
-    margin: 0;
-    overflow: auto;
-    white-space: break-spaces;
+	padding: 12px 20px;
+	margin: 0;
+	overflow: auto;
+	white-space: break-spaces;
 }
-  
+
 .dismiss {
-    position: absolute;
-    top: 2px;
-    right: 2px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
 
-    display: block;
-    width: 18px;
-    height: 18px;
-    padding: 0;
+	display: block;
+	width: 18px;
+	height: 18px;
+	padding: 0;
 
-    font-size: 9px;
-    line-height: 18px;
-    color: var(--bg-color);
+	font-size: 9px;
+	line-height: 18px;
+	color: var(--bg-color);
 
-    text-align: center;
-    cursor: pointer;
-    background-color: var(--color);
-    border: none;
-    border-radius: 9px;
+	text-align: center;
+	cursor: pointer;
+	background-color: var(--color);
+	border: none;
+	border-radius: 9px;
 }
 ```
+
 .msg 绝对定位在底部，设置下宽高。
 
 .dismss 绝对定位在 .msg 的右上角。
@@ -130,6 +139,7 @@ css 变量可以在它元素和子元素 css 里生效，所以切换了 .error 
 ```javascript
 <Message type='warn' content={new Error().stack!.toString()} />
 ```
+
 看下效果：
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e7b981f88c1410ea338c0c5417c2fef~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2868&h=1544&s=557007&e=gif&f=23&b=fdf8f7)
@@ -148,11 +158,12 @@ css 变量可以在它元素和子元素 css 里生效，所以切换了 .error 
 
 ```html
 <script>
-    window.addEventListener('error', (e) => {
-        window.parent.postMessage({type: 'ERROR', message: e.message})
-    })
+	window.addEventListener('error', (e) => {
+		window.parent.postMessage({ type: 'ERROR', message: e.message });
+	});
 </script>
 ```
+
 通过 postMessage 传递消息给父窗口。
 
 然后在 Preview 组件里监听下：
@@ -187,7 +198,7 @@ export default function Preview() {
 
     const getIframeUrl = () => {
         const res = iframeRaw.replace(
-            '<script type="importmap"></script>', 
+            '<script type="importmap"></script>',
             `<script type="importmap">${
                 files[IMPORT_MAP_FILE_NAME].value
             }</script>`
@@ -240,6 +251,7 @@ export default function Preview() {
     </div>
 }
 ```
+
 试下效果：
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ec3d96e05824decb38ee0294c0572c8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2450&h=1154&s=236107&e=gif&f=29&b=fefefe)
@@ -266,14 +278,14 @@ export default function Preview() {
 
 ```css
 .light {
-    --text: #444;
-    --bg: #fff;
+	--text: #444;
+	--bg: #fff;
 }
-  
+
 .dark {
-    --text: #fff;
-    --bg: #1a1a1a;
-} 
+	--text: #fff;
+	--bg: #1a1a1a;
+}
 ```
 
 还记得前面讲过 css 变量的生效范围么？
@@ -311,7 +323,7 @@ export default function Preview() {
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85915f807cb147c0aba43b94e562b44b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1210&h=1230&s=263110&e=png&b=1f1f1f)
 
 ```javascript
-import styles from './index.module.scss'
+import styles from './index.module.scss';
 
 import logoSvg from './icons/logo.svg';
 import { useContext } from 'react';
@@ -319,34 +331,35 @@ import { PlaygroundContext } from '../../PlaygroundContext';
 import { MoonOutlined, SunOutlined } from '@ant-design/icons';
 
 export default function Header() {
-  const { theme, setTheme} = useContext(PlaygroundContext)
+	const { theme, setTheme } = useContext(PlaygroundContext);
 
-  return (
-    <div className={styles.header}>
-      <div className={styles.logo}>
-        <img alt='logo' src={logoSvg}/>
-        <span>React Playground</span>
-      </div>
-      <div className={styles.links}>
-        {theme === 'light' && (
-          <MoonOutlined
-            title='切换暗色主题'
-            className={styles.theme}
-            onClick={() => setTheme('dark')}
-          />
-        )}
-        {theme === 'dark' && (
-          <SunOutlined
-            title='切换亮色主题'
-            className={styles.theme}
-            onClick={() => setTheme('light')}
-          />
-        )}
-      </div>
-    </div>
-  )
+	return (
+		<div className={styles.header}>
+			<div className={styles.logo}>
+				<img alt="logo" src={logoSvg} />
+				<span>React Playground</span>
+			</div>
+			<div className={styles.links}>
+				{theme === 'light' && (
+					<MoonOutlined
+						title="切换暗色主题"
+						className={styles.theme}
+						onClick={() => setTheme('dark')}
+					/>
+				)}
+				{theme === 'dark' && (
+					<SunOutlined
+						title="切换亮色主题"
+						className={styles.theme}
+						onClick={() => setTheme('light')}
+					/>
+				)}
+			</div>
+		</div>
+	);
 }
 ```
+
 安装用到的 icon 包：
 
 ```javascript

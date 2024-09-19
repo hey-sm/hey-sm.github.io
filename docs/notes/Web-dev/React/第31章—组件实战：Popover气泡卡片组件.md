@@ -1,4 +1,9 @@
-﻿组件库一般都有 Popover 和 Tooltip 这两个组件，它们非常相似。
+---
+title: 第31章—组件实战：Popover气泡卡片组件
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/taqvq99p/
+---
+组件库一般都有 Popover 和 Tooltip 这两个组件，它们非常相似。
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c98607761ead4b62a7dcb368119b3013~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1454&h=694&s=101769&e=png&b=fefefe)
 

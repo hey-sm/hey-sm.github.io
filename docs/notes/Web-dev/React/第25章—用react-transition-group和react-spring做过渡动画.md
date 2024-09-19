@@ -1,4 +1,9 @@
-﻿前面我们学了用 react-spring 做属性变化的动画，以及和 use-gesture 手势库结合做一些交互触发的动画。
+---
+title: 第25章—用react-transition-group和react-spring做过渡动画
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/e65zj1s1/
+---
+前面我们学了用 react-spring 做属性变化的动画，以及和 use-gesture 手势库结合做一些交互触发的动画。
 
 其实还有一种动画类型没有涉及，就是过渡动画。
 

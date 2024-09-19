@@ -1,4 +1,9 @@
-﻿提到状态管理，大家可能首先想到的是 redux。
+---
+title: 第47章—手写一个Zustand
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/wnyv9rn0/
+---
+提到状态管理，大家可能首先想到的是 redux。
 
 redux 是老牌状态管理库，能完成各种基本功能，并且有着庞大的中间件生态来扩展额外功能。
 

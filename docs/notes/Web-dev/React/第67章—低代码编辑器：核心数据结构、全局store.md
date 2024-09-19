@@ -1,4 +1,9 @@
-﻿这节开始，我们做一个实战项目：低代码编辑器
+---
+title: 第67章—低代码编辑器：核心数据结构、全局store
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/tr6fb8s6/
+---
+这节开始，我们做一个实战项目：低代码编辑器
 
 这种编辑器都差不多，比如百度开源的 [amis](https://aisuda.github.io/amis-editor-demo/#/edit/0)：
 

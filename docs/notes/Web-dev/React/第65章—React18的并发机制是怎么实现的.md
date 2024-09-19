@@ -1,4 +1,9 @@
-﻿React 18 最主要的特性就是并发了，很多 api 都是基于并发特性实现的。
+---
+title: 第65章—React18的并发机制是怎么实现的
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/d4xgydy2/
+---
+React 18 最主要的特性就是并发了，很多 api 都是基于并发特性实现的。
 
 那为什么 React 要实现并发？什么是并发？又是怎么实现的呢？
 

@@ -1,4 +1,9 @@
-﻿在 [amis](https://aisuda.github.io/amis-editor-demo/#/edit/0) 编辑器里，物料拖动到画布区后，还可以拖动改变位置：
+---
+title: 第77章—低代码编辑器：拖拽优化、Table组件
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/abz7yu8c/
+---
+在 [amis](https://aisuda.github.io/amis-editor-demo/#/edit/0) 编辑器里，物料拖动到画布区后，还可以拖动改变位置：
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b0527ba56eba4895a44e84e18fdabc02~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2912&h=1502&s=2271108&e=gif&f=44&b=fdfdfd)
 

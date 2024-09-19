@@ -1,4 +1,9 @@
-﻿当路由切换的时候，react router 会销毁之前路由的组件，然后渲染新的路由对应的组件。
+---
+title: 第43章—基于ReactRouter实现keepalive
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/7i7cam8s/
+---
+当路由切换的时候，react router 会销毁之前路由的组件，然后渲染新的路由对应的组件。
 
 在一些场景下，这样是有问题的。
 

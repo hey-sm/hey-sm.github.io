@@ -1,4 +1,9 @@
-﻿上节做了 esm 和 commonjs、scss 代码的编译，并发布到 npm，在项目里使用没啥问题。
+---
+title: 第41章—组件库实战：构建umd产物，通过unpkg访问
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/v1k4sffx/
+---
+上节做了 esm 和 commonjs、scss 代码的编译，并发布到 npm，在项目里使用没啥问题。
 
 绝大多数情况下，这样就足够了。
 

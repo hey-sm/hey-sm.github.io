@@ -1,4 +1,9 @@
-﻿这节我们继续完善 playground 的功能。
+---
+title: 第59章—ReactPlayground项目实战：链接分享、代码下载
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/og7tcww9/
+---
+这节我们继续完善 playground 的功能。
 
 代码写完后我们希望能通过链接分享出去，别人访问链接就可以看到这段代码。
 

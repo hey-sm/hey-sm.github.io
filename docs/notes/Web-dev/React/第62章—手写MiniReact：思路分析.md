@@ -1,4 +1,9 @@
-﻿我们写了很多 React 组件，也学了一些 React 生态的库，用 React 这方面没啥问题了。
+---
+title: 第62章—手写MiniReact：思路分析
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/owyzu9xm/
+---
+我们写了很多 React 组件，也学了一些 React 生态的库，用 React 这方面没啥问题了。
 
 但想要深入掌握 React，理解它的实现原理也是必要的。
 

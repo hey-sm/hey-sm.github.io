@@ -1,4 +1,9 @@
-﻿组件里有很多逻辑是可以复用的。
+---
+title: 第21章—自定义hook练习
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/kobjml6c/
+---
+组件里有很多逻辑是可以复用的。
 
 对于常规的 JS 逻辑，我们会封装成函数，也会用一些通用函数的库，比如 lodash。
 

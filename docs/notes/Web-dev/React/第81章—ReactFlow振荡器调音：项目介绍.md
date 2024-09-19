@@ -1,4 +1,9 @@
-﻿学完 React Flow，我们来做一个实战案例：振荡器调音。
+---
+title: 第81章—ReactFlow振荡器调音：项目介绍
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/kfnm6awt/
+---
+学完 React Flow，我们来做一个实战案例：振荡器调音。
 
 什么是振荡器呢？
 

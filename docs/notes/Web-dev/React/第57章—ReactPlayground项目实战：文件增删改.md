@@ -1,4 +1,9 @@
-﻿我们实现了多个文件的编辑、编译、预览，整体流程已经跑通了。
+---
+title: 第57章—ReactPlayground项目实战：文件增删改
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/4fnpgkrn/
+---
+我们实现了多个文件的编辑、编译、预览，整体流程已经跑通了。
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a90778f7a1e41d18d4ada304a942d8a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2778&h=1284&s=242373&e=gif&f=41&b=fefefe)
 

@@ -1,4 +1,9 @@
-﻿上节完成了整体布局和代码编辑器部分的开发：
+---
+title: 第55章—ReactPlayground项目实战：多文件切换
+createTime: 2024/09/19 18:20:17
+permalink: /notes/Web-dev/React/sktojo61/
+---
+上节完成了整体布局和代码编辑器部分的开发：
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e8cbf9539054e35aee51d5ff6ef7266~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2548&h=1046&s=106720&e=png&b=ffffff)
 
