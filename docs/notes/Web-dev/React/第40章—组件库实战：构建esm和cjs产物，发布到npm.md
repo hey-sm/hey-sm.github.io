@@ -1,10 +1,4 @@
----
-title: 第40章—组件库实战：构建esm和cjs产物，发布到npm
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/7y5fv1uy/
----
-我们已经写了很多组件了，比如 Calendar、Watermark、OnBoarding 等，但都是用 cra 或者 vite 单独创建项目来写的。
+﻿我们已经写了很多组件了，比如 Calendar、Watermark、OnBoarding 等，但都是用 cra 或者 vite 单独创建项目来写的。
 
 这节我们把它们整合一下，加上构建脚本，发布到 npm，做成和 Ant Design 一样的组件库。
 

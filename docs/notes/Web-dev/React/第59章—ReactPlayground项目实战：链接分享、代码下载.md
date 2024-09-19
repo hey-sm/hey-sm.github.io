@@ -1,10 +1,4 @@
----
-title: 第59章—ReactPlayground项目实战：链接分享、代码下载
-author:
-createTime: 2024/09/19 17:39:33
-permalink: /notes/Web-dev/掘金小册/ak2ae4q2/
----
-这节我们继续完善 playground 的功能。
+﻿这节我们继续完善 playground 的功能。
 
 代码写完后我们希望能通过链接分享出去，别人访问链接就可以看到这段代码。
 

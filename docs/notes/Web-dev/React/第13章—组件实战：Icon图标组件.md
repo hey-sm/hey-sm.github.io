@@ -1,10 +1,4 @@
----
-title: 第13章—组件实战：Icon图标组件
-author:
-createTime: 2024/09/19 17:39:38
-permalink: /notes/Web-dev/掘金小册/2sd2ir3s/
----
-Icon 图标组件是非常常用的组件。
+﻿Icon 图标组件是非常常用的组件。
 
 它用起来非常简单，只要复制图标的组件名，直接渲染即可：
 

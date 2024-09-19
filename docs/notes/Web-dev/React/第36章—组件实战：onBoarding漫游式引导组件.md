@@ -1,10 +1,4 @@
----
-title: 第36章—组件实战：onBoarding漫游式引导组件
-author:
-createTime: 2024/09/19 17:39:35
-permalink: /notes/Web-dev/掘金小册/y7il1xsr/
----
-当应用加了新功能的时候，都会通过这种方式来告诉用户怎么用：
+﻿当应用加了新功能的时候，都会通过这种方式来告诉用户怎么用：
 
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f7df510df431436fad816e00cb43add4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2824&h=1396&s=2347732&e=gif&f=52&b=fdfdfd)
 

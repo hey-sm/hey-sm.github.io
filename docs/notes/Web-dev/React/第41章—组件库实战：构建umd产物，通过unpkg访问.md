@@ -1,10 +1,4 @@
----
-title: 第41章—组件库实战：构建umd产物，通过unpkg访问
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/urvc53rf/
----
-上节做了 esm 和 commonjs、scss 代码的编译，并发布到 npm，在项目里使用没啥问题。
+﻿上节做了 esm 和 commonjs、scss 代码的编译，并发布到 npm，在项目里使用没啥问题。
 
 绝大多数情况下，这样就足够了。
 

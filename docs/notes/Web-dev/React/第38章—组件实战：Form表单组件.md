@@ -1,10 +1,4 @@
----
-title: 第38章—组件实战：Form表单组件
-author:
-createTime: 2024/09/19 17:39:40
-permalink: /notes/Web-dev/掘金小册/kxz2edq1/
----
-大家写中后台系统的时候，应该都用过 Ant Design 的 Form 组件：
+﻿大家写中后台系统的时候，应该都用过 Ant Design 的 Form 组件：
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/730c4b51a23f44a8bca2935d52f7e0d6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1242&h=528&s=62829&e=gif&f=24&b=fefefe)
 

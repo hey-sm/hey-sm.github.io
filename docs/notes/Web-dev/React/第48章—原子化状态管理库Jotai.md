@@ -1,10 +1,4 @@
----
-title: 第48章—原子化状态管理库Jotai
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/co94fy3r/
----
-Jotai 是一个 react 的状态管理库，主打原子化。
+﻿Jotai 是一个 react 的状态管理库，主打原子化。
 
 提到原子化，你可能会想到原子化 CSS 框架 tailwind。
 

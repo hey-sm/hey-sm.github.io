@@ -1,10 +1,4 @@
----
-title: 第51章—基于react-dnd实现拖拽排序
-author:
-createTime: 2024/09/19 17:39:33
-permalink: /notes/Web-dev/掘金小册/vv6166sy/
----
-拖拽是常见的需求，在 react 里我们会用 react-dnd 来做。
+﻿拖拽是常见的需求，在 react 里我们会用 react-dnd 来做。
 
 这节我们通过一个拖拽排序的案例来入门下 react-dnd。
 

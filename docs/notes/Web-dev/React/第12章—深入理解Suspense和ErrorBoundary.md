@@ -1,10 +1,4 @@
----
-title: 第12章—深入理解Suspense和ErrorBoundary
-author:
-createTime: 2024/09/19 17:39:38
-permalink: /notes/Web-dev/掘金小册/i3ygjkcm/
----
-React 里有两种组件，看似没啥关系，但在实现原理上却是很接近。
+﻿React 里有两种组件，看似没啥关系，但在实现原理上却是很接近。
 
 它们就是 Suspense 和 ErrorBoundary。
 

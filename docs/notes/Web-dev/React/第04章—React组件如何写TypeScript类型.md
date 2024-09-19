@@ -1,10 +1,4 @@
----
-title: 第04章—React组件如何写TypeScript类型
-author:
-createTime: 2024/09/19 17:39:40
-permalink: /notes/Web-dev/掘金小册/2e0w5ynl/
----
-现在写 React 组件都是基于 TypeScript，所以如何给组件写类型也是很重要的。
+﻿现在写 React 组件都是基于 TypeScript，所以如何给组件写类型也是很重要的。
 
 这节我们就来学下 React 组件如何写 TypeScript 类型。
 

@@ -1,10 +1,4 @@
----
-title: 第14章—组件实战：Space间距组件
-author:
-createTime: 2024/09/19 17:39:38
-permalink: /notes/Web-dev/掘金小册/bpqincys/
----
-我们用 flex、margin、padding 等来布局，写每个组件都要用。
+﻿我们用 flex、margin、padding 等来布局，写每个组件都要用。
 
 但其实很多布局是通用的。
 

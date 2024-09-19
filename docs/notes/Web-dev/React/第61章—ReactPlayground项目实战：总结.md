@@ -1,10 +1,4 @@
----
-title: 第61章—ReactPlayground项目实战：总结
-author:
-createTime: 2024/09/19 17:39:32
-permalink: /notes/Web-dev/掘金小册/2btterzo/
----
-我们从 0 到 1 实现了和 [vue playground](https://play.vuejs.org/) 功能一样的项目：
+﻿我们从 0 到 1 实现了和 [vue playground](https://play.vuejs.org/) 功能一样的项目：
 
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7f6d276902e2434e9f715d4380f7f54e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2782&h=1364&s=919630&e=gif&f=63&b=fdfdfd)
 

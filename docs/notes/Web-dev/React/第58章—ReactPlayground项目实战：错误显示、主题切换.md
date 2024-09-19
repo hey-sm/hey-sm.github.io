@@ -1,10 +1,4 @@
----
-title: 第58章—ReactPlayground项目实战：错误显示、主题切换
-author:
-createTime: 2024/09/19 17:39:33
-permalink: /notes/Web-dev/掘金小册/ngitxrr1/
----
-这节我们继续完善 playground 的功能。
+﻿这节我们继续完善 playground 的功能。
 
 首先，我们预览出错时，iframe 会白屏，并不会显示错误。
 

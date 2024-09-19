@@ -1,10 +1,4 @@
----
-title: 第35章—组件实战：ColorPicker颜色选择器（二）
-author:
-createTime: 2024/09/19 17:39:35
-permalink: /notes/Web-dev/掘金小册/mv9t9b8z/
----
-这节我们开始写 ColorPicker 组件。
+﻿这节我们开始写 ColorPicker 组件。
 
 看下 antd 的 [ColorPicker 组件](https://ant-design.antgroup.com/components/color-picker-cn#%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA)：
 

@@ -1,10 +1,4 @@
----
-title: 第83章—ReactFlow振荡器调音：合成声音
-author:
-createTime: 2024/09/19 17:39:30
-permalink: /notes/Web-dev/掘金小册/lych2v64/
----
-这节来写音频部分，通过流程图设置参数，然后生成声音。
+﻿这节来写音频部分，通过流程图设置参数，然后生成声音。
 
 我们先用一下 AudioContext 的 api。
 

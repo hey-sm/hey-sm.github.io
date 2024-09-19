@@ -1,10 +1,4 @@
----
-title: 第60章—ReactPlayground项目实战：WebWorker性能优化
-author:
-createTime: 2024/09/19 17:39:32
-permalink: /notes/Web-dev/掘金小册/ujflf5tn/
----
-功能实现的差不多以后，我们做下代码的优化。
+﻿功能实现的差不多以后，我们做下代码的优化。
 
 大家觉得我们的 playground 有啥性能瓶颈没有？
 

@@ -1,10 +1,4 @@
----
-title: 第53章—ReactPlayground项目实战：需求分析、实现原理
-author:
-createTime: 2024/09/19 17:39:33
-permalink: /notes/Web-dev/掘金小册/w9k8ne3v/
----
-这节我们开始做一个实战项目：React Playground。
+﻿这节我们开始做一个实战项目：React Playground。
 
 类似 [vue 的 playground](https://play.vuejs.org/)：
 

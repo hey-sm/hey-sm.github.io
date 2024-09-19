@@ -1,10 +1,4 @@
----
-title: 第27章—用CSSModules避免样式冲突
-author:
-createTime: 2024/09/19 17:39:36
-permalink: /notes/Web-dev/掘金小册/bpzgfxbp/
----
-每个组件里有 js 逻辑和 css 样式。
+﻿每个组件里有 js 逻辑和 css 样式。
 
 js 逻辑是通过 es module 做了模块化的，但是 css 并没有。
 

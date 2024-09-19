@@ -1,10 +1,4 @@
----
-title: 第42章—数据不可变：immutable和immer
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/oawmtgaw/
----
-假设 React 组件有这样一个状态：
+﻿假设 React 组件有这样一个状态：
 
 ```javascript
 this.state = {

@@ -1,10 +1,4 @@
----
-title: 第66章—Ref的实现原理
-author:
-createTime: 2024/09/19 17:39:32
-permalink: /notes/Web-dev/掘金小册/5b7zfi97/
----
-ref 是 React 里常用的特性，我们会用它来拿到 dom 的引用，或者用来保存渲染过程中不变的数据。
+﻿ref 是 React 里常用的特性，我们会用它来拿到 dom 的引用，或者用来保存渲染过程中不变的数据。
 
 我们创建个项目试一下：
 

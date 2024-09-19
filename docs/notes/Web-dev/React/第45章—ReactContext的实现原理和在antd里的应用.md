@@ -1,10 +1,4 @@
----
-title: 第45章—ReactContext的实现原理和在antd里的应用
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/jcxkgotl/
----
-context 是 react 的主要特性，它能在任意层级的组件之间传递数据。
+﻿context 是 react 的主要特性，它能在任意层级的组件之间传递数据。
 
 在业务代码中用 context 可能不多，大家更偏向于全局的状态管理库，比如 redux、mobx，但在 antd 等组件库里用的特别多。
 

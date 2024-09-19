@@ -1,10 +1,4 @@
----
-title: 第26章—快速掌握Tailwind：最流行的原子化CSS框架
-author:
-createTime: 2024/09/19 17:39:36
-permalink: /notes/Web-dev/掘金小册/1pycgy6h/
----
-Tailwind 是流行的原子化 css 框架。
+﻿Tailwind 是流行的原子化 css 框架。
 
 有多流行呢？
 

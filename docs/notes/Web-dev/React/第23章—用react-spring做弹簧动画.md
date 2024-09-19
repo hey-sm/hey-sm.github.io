@@ -1,10 +1,4 @@
----
-title: 第23章—用react-spring做弹簧动画
-author:
-createTime: 2024/09/19 17:39:37
-permalink: /notes/Web-dev/掘金小册/lrkcjrzc/
----
-网页中经常会见到一些动画，动画可以让产品的交互体验更好。
+﻿网页中经常会见到一些动画，动画可以让产品的交互体验更好。
 
 一般的动画我们会用 css 的 animation 和 transition 来做，但当涉及到多个元素的时候，事情就会变得复杂。
 

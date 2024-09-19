@@ -1,10 +1,4 @@
----
-title: 第24章—react-spring结合use-gesture手势库实现交互动画
-author:
-createTime: 2024/09/19 17:39:37
-permalink: /notes/Web-dev/掘金小册/xxlxogua/
----
-上节我们学了用 react-spring 做动画。
+﻿上节我们学了用 react-spring 做动画。
 
 其实也简单，就是指定某些属性的开始值、结束值，动画的时长或者弹簧动画的一些参数，react-spring 就会实现这些属性的动画。
 

@@ -1,10 +1,4 @@
----
-title: 第22章—自定义hook练习（二）
-author:
-createTime: 2024/09/19 17:39:37
-permalink: /notes/Web-dev/掘金小册/23ghv2qj/
----
-上节写了几个 react-use 的 hook，这节来写几个 ahooks 里的。
+﻿上节写了几个 react-use 的 hook，这节来写几个 ahooks 里的。
 
 新建个项目：
 

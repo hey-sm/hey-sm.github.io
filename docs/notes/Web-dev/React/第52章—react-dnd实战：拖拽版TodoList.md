@@ -1,10 +1,4 @@
----
-title: 第52章—react-dnd实战：拖拽版TodoList
-author:
-createTime: 2024/09/19 17:39:33
-permalink: /notes/Web-dev/掘金小册/8rw29fed/
----
-学了很多技术之后，这节来综合练习下，做个 Todo List。
+﻿学了很多技术之后，这节来综合练习下，做个 Todo List。
 
 当然，不是普通的那种，而是拖拽版：
 

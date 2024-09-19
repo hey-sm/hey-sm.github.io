@@ -1,11 +1,4 @@
----
-title: 第03章—Hook的闭包陷阱的成因和解决方案
-author:
-createTime: 2024/09/19 17:39:40
-permalink: /notes/Web-dev/React/ih345ch9/
----
-
-上节我们学习了各种 hook，用这些 hook 写组件的时候经常遇到一个问题，就是闭包陷阱。
+﻿上节我们学习了各种 hook，用这些 hook 写组件的时候经常遇到一个问题，就是闭包陷阱。
 
 这节我们了解下什么是闭包陷阱，如何解决闭包陷阱。
 
@@ -28,28 +21,27 @@ const root = ReactDOM.createRoot(
 );
 root.render(<App />);
 ```
-
 然后看这样一个组件，通过定时器不断的累加 count：
 
 ```javascript
 import { useEffect, useState } from 'react';
 
 function App() {
-	const [count, setCount] = useState(0);
 
-	useEffect(() => {
-		setInterval(() => {
-			console.log(count);
-			setCount(count + 1);
-		}, 1000);
-	}, []);
+    const [count,setCount] = useState(0);
 
-	return <div>{count}</div>;
+    useEffect(() => {
+        setInterval(() => {
+            console.log(count);
+            setCount(count + 1);
+        }, 1000);
+    }, []);
+
+    return <div>{count}</div>
 }
 
 export default App;
 ```
-
 大家觉得这个 count 会每秒加 1 么？
 
 不会。
@@ -111,7 +103,7 @@ function reducer(state: number, action: Action) {
     switch(action.type) {
         case 'add':
             return state + action.num
-        case 'minus':
+        case 'minus': 
             return state - action.num
     }
     return state;
@@ -160,26 +152,26 @@ export default App;
 import { useEffect, useState } from 'react';
 
 function App() {
-	const [count, setCount] = useState(0);
 
-	useEffect(() => {
-		console.log(count);
+    const [count,setCount] = useState(0);
 
-		const timer = setInterval(() => {
-			setCount(count + 1);
-		}, 1000);
+    useEffect(() => {
+        console.log(count);
 
-		return () => {
-			clearInterval(timer);
-		};
-	}, [count]);
+        const timer = setInterval(() => {
+            setCount(count + 1);
+        }, 1000);
 
-	return <div>{count}</div>;
+        return () => {
+            clearInterval(timer);
+        }
+    }, [count]);
+
+    return <div>{count}</div>
 }
 
 export default App;
 ```
-
 依赖数组加上了 count，这样 count 变化的时候重新执行 effect，那执行的函数引用的就是最新的 count 值。
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a18f23a7e4bb4ebc9d925108a45a8587~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=868&h=810&s=70373&e=gif&f=32&b=fefefe)
@@ -196,29 +188,28 @@ export default App;
 import { useEffect, useState, useRef, useLayoutEffect } from 'react';
 
 function App() {
-	const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);
 
-	const updateCount = () => {
-		setCount(count + 1);
-	};
-	const ref = useRef(updateCount);
+    const updateCount = () => {
+        setCount(count + 1);
+    };
+    const ref = useRef(updateCount);
 
-	ref.current = updateCount;
+    ref.current = updateCount;
 
-	useEffect(() => {
-		const timer = setInterval(() => ref.current(), 1000);
+    useEffect(() => {
+        const timer = setInterval(() => ref.current(), 1000);
 
-		return () => {
-			clearInterval(timer);
-		};
-	}, []);
+        return () => {
+            clearInterval(timer);
+        }
+    }, []);
 
-	return <div>{count}</div>;
+    return <div>{count}</div>;
 }
 
 export default App;
 ```
-
 通过 useRef 创建 ref 对象，保存执行的函数，每次渲染更新 ref.current 的值为最新函数。
 
 这样，定时器执行的函数里就始终引用的是最新的 count。
@@ -243,29 +234,29 @@ useEffect 只跑一次，保证 setIntervel 不会重置，是每秒执行一次
 import { useEffect, useState, useRef } from 'react';
 
 function useInterval(fn: Function, delay?: number | null) {
-	const callbackFn = useRef(fn);
+    const callbackFn = useRef(fn);
 
-	useLayoutEffect(() => {
-		callbackFn.current = fn;
-	});
+    useLayoutEffect(() => {
+        callbackFn.current = fn;
+    });
+    
+    useEffect(() => {
+        const timer = setInterval(() => callbackFn.current(), delay || 0);
 
-	useEffect(() => {
-		const timer = setInterval(() => callbackFn.current(), delay || 0);
-
-		return () => clearInterval(timer);
-	}, []);
+        return () => clearInterval(timer);
+    }, []);
 }
 
 function App() {
-	const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);
 
-	const updateCount = () => {
-		setCount(count + 1);
-	};
+    const updateCount = () => {
+        setCount(count + 1);
+    };
 
-	useInterval(updateCount, 1000);
+    useInterval(updateCount, 1000);
 
-	return <div>{count}</div>;
+    return <div>{count}</div>;
 }
 
 export default App;
@@ -295,6 +286,7 @@ export default App;
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e43ff228443446778dd6d516282a1bdc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1108&h=996&s=179761&e=png&b=fffefe)
 
+
 上面的 useInterval 没有返回 clean 函数，调用者不能停止定时器，所以我们再加一个 ref 来保存 clean 函数，然后返回：
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ea9bbe0c88bc4d14a2ede83b7544de84~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=960&h=924&s=117073&e=png&b=1f1f1f)
@@ -306,7 +298,7 @@ function useInterval(fn: Function, time: number) {
     ref.current = fn;
 
     let cleanUpFnRef = useRef<Function>();
-
+    
     const clean = useCallback(() =>{
         cleanUpFnRef.current?.();
     }, []);

@@ -1,10 +1,4 @@
----
-title: 第08章—组件实战：Calendar日历组件（上）
-author:
-createTime: 2024/09/19 17:39:39
-permalink: /notes/Web-dev/掘金小册/vevpdl76/
----
-上节我们实现了 mini calendar，为啥要加个 mini 呢？
+﻿上节我们实现了 mini calendar，为啥要加个 mini 呢？
 
 因为它与真实用的 Calendar 组件相比，还是过于简单了。
 

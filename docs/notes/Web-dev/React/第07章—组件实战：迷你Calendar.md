@@ -1,10 +1,4 @@
----
-title: 第07章—组件实战：迷你Calendar
-author:
-createTime: 2024/09/19 17:39:39
-permalink: /notes/Web-dev/掘金小册/np942o6f/
----
-日历组件想必大家都用过，在各个组件库里都有。
+﻿日历组件想必大家都用过，在各个组件库里都有。
 
 比如 antd 的 Calendar 组件（或者 DatePicker 组件）：
 

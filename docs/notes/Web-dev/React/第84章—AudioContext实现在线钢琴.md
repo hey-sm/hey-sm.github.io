@@ -1,10 +1,4 @@
----
-title: 第84章—AudioContext实现在线钢琴
-author:
-createTime: 2024/09/19 17:39:30
-permalink: /notes/Web-dev/掘金小册/yck6y6in/
----
-前面学了 AudioContext，它可以通过调整波形、频率产生不同的声音。
+﻿前面学了 AudioContext，它可以通过调整波形、频率产生不同的声音。
 
 这节我们就用它来实现一个在线钢琴。
 

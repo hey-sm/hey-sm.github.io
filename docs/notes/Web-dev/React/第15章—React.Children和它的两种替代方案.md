@@ -1,10 +1,4 @@
----
-title: 第15章—React.Children和它的两种替代方案
-author:
-createTime: 2024/09/19 17:39:38
-permalink: /notes/Web-dev/掘金小册/p5sn6d2l/
----
-JSX 的标签体部分会通过 children 的 props 传给组件：
+﻿JSX 的标签体部分会通过 children 的 props 传给组件：
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1188b684ffe748808c99f97fc25e570f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=466&h=176&s=38205&e=png&b=202020)
 

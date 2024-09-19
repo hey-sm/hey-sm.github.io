@@ -1,10 +1,4 @@
----
-title: 第17章—浏览器的5种Observer
-author:
-createTime: 2024/09/19 17:39:37
-permalink: /notes/Web-dev/掘金小册/ty3olssi/
----
-网页开发中我们经常要处理用户交互，我们会用 addEventListener 添加事件监听器来监听各种用户操作，比如 click、mousedown、mousemove、input 等，这些都是由用户直接触发的事件。
+﻿网页开发中我们经常要处理用户交互，我们会用 addEventListener 添加事件监听器来监听各种用户操作，比如 click、mousedown、mousemove、input 等，这些都是由用户直接触发的事件。
 
 那么对于一些不是由用户直接触发的事件呢？ 比如元素从不可见到可见、元素大小的改变、元素的属性和子节点的修改等，这类事件如何监听呢？
 

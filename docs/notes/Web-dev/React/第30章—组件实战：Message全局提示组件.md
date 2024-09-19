@@ -1,10 +1,4 @@
----
-title: 第30章—组件实战：Message全局提示组件
-author:
-createTime: 2024/09/19 17:39:36
-permalink: /notes/Web-dev/掘金小册/disz4mrz/
----
-我们经常会用 Message 组件来展示一些成功、失败的提示：
+﻿我们经常会用 Message 组件来展示一些成功、失败的提示：
 
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/917fbcbcff2747db87f8849178813682~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1166&h=768&s=404782&e=gif&f=20&b=fdfdfd)
 

@@ -1,10 +1,4 @@
----
-title: 第44章—Historyapi和ReactRouter实现原理
-author:
-createTime: 2024/09/19 17:39:34
-permalink: /notes/Web-dev/掘金小册/zw2myuxm/
----
-Router 是开发 React 应用的必备功能，那 React Router 是怎么实现的呢？
+﻿Router 是开发 React 应用的必备功能，那 React Router 是怎么实现的呢？
 
 今天我们就来读一下 React Router 的源码吧！
 

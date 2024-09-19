@@ -1,10 +1,4 @@
----
-title: 第21章—自定义hook练习
-author:
-createTime: 2024/09/19 17:39:37
-permalink: /notes/Web-dev/掘金小册/qemtdlpw/
----
-组件里有很多逻辑是可以复用的。
+﻿组件里有很多逻辑是可以复用的。
 
 对于常规的 JS 逻辑，我们会封装成函数，也会用一些通用函数的库，比如 lodash。
 

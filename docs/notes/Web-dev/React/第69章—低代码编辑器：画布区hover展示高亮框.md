@@ -1,10 +1,4 @@
----
-title: 第69章—低代码编辑器：画布区hover展示高亮框
-author:
-createTime: 2024/09/19 17:39:32
-permalink: /notes/Web-dev/掘金小册/pbyyiqap/
----
-上节我们实现了 json 到组件树的渲染，以及拖拽改变 json，支持任意层级：
+﻿上节我们实现了 json 到组件树的渲染，以及拖拽改变 json，支持任意层级：
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa89c7f88b254098a033463485940625~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2856&h=1332&s=686094&e=gif&f=59&b=fefefe)
 

@@ -1,10 +1,4 @@
----
-title: 第85章—React服务端渲染：从SSR到hydrate
-author:
-createTime: 2024/09/19 17:39:30
-permalink: /notes/Web-dev/掘金小册/93wpxy13/
----
-SSR 是 Server Side Rendering，服务端渲染，服务端返回渲染出的 html，浏览器解析 html 来构建页面。
+﻿SSR 是 Server Side Rendering，服务端渲染，服务端返回渲染出的 html，浏览器解析 html 来构建页面。
 
 其实这是一项很古老的技术，很早之前服务端就是通过 JSP、PHP 等模版引擎，渲染填充数据的模版，产生 html 返回的。只不过这时候没有组件的概念。
 

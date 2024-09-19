@@ -1,10 +1,4 @@
----
-title: 第67章—低代码编辑器：核心数据结构、全局store
-author:
-createTime: 2024/09/19 17:39:32
-permalink: /notes/Web-dev/掘金小册/y6a4ytig/
----
-这节开始，我们做一个实战项目：低代码编辑器
+﻿这节开始，我们做一个实战项目：低代码编辑器
 
 这种编辑器都差不多，比如百度开源的 [amis](https://aisuda.github.io/amis-editor-demo/#/edit/0)：
 
