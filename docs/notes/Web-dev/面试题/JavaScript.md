@@ -1,3 +1,8 @@
+---
+title: JavaScript
+createTime: 2024/11/11 16:32:03
+permalink: /notes/Web-dev/面试题/7ly6kveo/
+---
 ## *1. JS中本地对象、内置对象、宿主对象分别是什么，有什么区别？*
 
 在 JavaScript 中，对象可以分为三类：本地对象（Native Objects）、内置对象（Built-in Objects）和宿主对象（Host Objects）。它们之间的区别如下：
